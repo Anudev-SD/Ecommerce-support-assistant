@@ -1,0 +1,83 @@
+[
+  {
+    "order_id": "ORD1001",
+    "customer_name": "Anjali Menon",
+    "status": "Shipped",
+    "items": [
+      { "product_id": "P1001", "name": "Wireless Earbuds", "qty": 1, "price_inr": 2499 }
+    ],
+    "order_date": "2026-08-10",
+    "expected_delivery": "2026-08-16",
+    "tracking_id": "TRK55291",
+    "payment_method": "UPI",
+    "shipping_address_locked": true
+  },
+  {
+    "order_id": "ORD1002",
+    "customer_name": "Rahul Nair",
+    "status": "Processing",
+    "items": [
+      { "product_id": "P1006", "name": "24-inch Monitor (Full HD)", "qty": 1, "price_inr": 9999 }
+    ],
+    "order_date": "2026-08-17",
+    "expected_delivery": "2026-08-23",
+    "tracking_id": null,
+    "payment_method": "Credit Card",
+    "shipping_address_locked": false
+  },
+  {
+    "order_id": "ORD1003",
+    "customer_name": "Fathima Beevi",
+    "status": "Delivered",
+    "items": [
+      { "product_id": "P1003", "name": "65W GaN Charger", "qty": 2, "price_inr": 1999 }
+    ],
+    "order_date": "2026-08-10",
+    "expected_delivery": "2026-08-15",
+    "delivered_date": "2026-08-15",
+    "tracking_id": "TRK48213",
+    "payment_method": "COD",
+    "shipping_address_locked": true
+  },
+  {
+    "order_id": "ORD1004",
+    "customer_name": "Vishnu Prasad",
+    "status": "Out for Delivery",
+    "items": [
+      { "product_id": "P1010", "name": "Power Bank 20,000mAh", "qty": 1, "price_inr": 2499 }
+    ],
+    "order_date": "2026-08-14",
+    "expected_delivery": "2026-08-19",
+    "tracking_id": "TRK61042",
+    "payment_method": "Debit Card",
+    "shipping_address_locked": true
+  },
+  {
+    "order_id": "ORD1005",
+    "customer_name": "Sreelakshmi K",
+    "status": "Cancelled",
+    "items": [
+      { "product_id": "P1002", "name": "Over-Ear Headphones", "qty": 1, "price_inr": 3799 }
+    ],
+    "order_date": "2026-08-05",
+    "expected_delivery": null,
+    "tracking_id": null,
+    "payment_method": "Net Banking",
+    "shipping_address_locked": true,
+    "cancelled_date": "2026-08-06"
+  },
+  {
+    "order_id": "ORD1006",
+    "customer_name": "Arjun Das",
+    "status": "Delivered",
+    "items": [
+      { "product_id": "P1001", "name": "Wireless Earbuds", "qty": 1, "price_inr": 2499 }
+    ],
+    "order_date": "2026-07-10",
+    "expected_delivery": "2026-07-15",
+    "delivered_date": "2026-07-15",
+    "tracking_id": "TRK39871",
+    "payment_method": "UPI",
+    "shipping_address_locked": true
+  }
+]
